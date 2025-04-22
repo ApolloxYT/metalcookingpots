@@ -1,0 +1,28 @@
+{
+    "ingredientPattern": "TBS",
+    "ingredients": {
+        "T": {
+            "type": "item",
+            "code": "metalpots:metalpottop-*",
+            "name": "metal"
+        },
+        "B": {
+            "type": "item",
+            "code": "metalpots:metalpotbottom-*",
+            "name": "metal"
+        },
+        "S": {
+            "type": "item",
+            "code": "game:solderingiron",
+            "isTool": true
+        }
+    },
+    "width": 1,
+    "height": 3,
+    "shapeless": true,
+    "output": {
+        "type": "block",
+        "code": "metalpots:metalpot-{metal}-empty",
+        "quantity": 1
+    }
+}

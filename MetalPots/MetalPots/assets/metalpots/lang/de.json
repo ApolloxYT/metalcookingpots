@@ -1,0 +1,8 @@
+{
+    "block-dirtymetalpot-*": "Metalltopf mit Rückstanden",
+    "block-metalpot-*-empty": "Metalllkochtopf",
+    "block-metalpot-*-cooked": "Metall Topf mit gekochten Speisen",
+
+    "item-metalpottop-*": "Metall Topf Teil (Obere Hälfte)",
+    "item-metalpotbottom-*": "Metall Topf Teil (Untere Hälfte)"
+}

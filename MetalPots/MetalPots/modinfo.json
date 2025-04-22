@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "metalpots",
+    "name": "Metal Cooking Pots",
+    "authors": [
+        "Apollox"
+    ],
+    "description": "Adds new and bigger Cooking Pots",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
