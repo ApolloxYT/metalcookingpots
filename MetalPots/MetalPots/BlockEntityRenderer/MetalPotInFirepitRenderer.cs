@@ -42,13 +42,13 @@ namespace MetalPots.BlockEntityRenderer
             {
                 MPMealMeshCache meshcache = capi.ModLoader.GetModSystem<MPMealMeshCache>();
 
-                potWithFoodRef = meshcache.GetOrCreateMealInContainerMeshRef(potBlock, potBlock.GetCookingRecipe(capi.World, stack), potBlock.GetNonEmptyContents(capi.World, stack), new Vec3f(0, 7.5f / 16f, 0));
+                potWithFoodRef = meshcache.GetOrCreateMealInContainerMeshRef(potBlock, potBlock.GetCookingRecipe(capi.World, stack), potBlock.GetNonEmptyContents(capi.World, stack), new Vec3f(0, 6.0f / 16f, 0));
             }
             else
             {
                 string basePath = "metalpots:shapes/block/metalpot-";
                 MeshData potMesh;
-                capi.Tesselator.TesselateShape(potBlock, Shape.TryGet(capi, basePath + "opened-empty.json"), out potMesh);
+                capi.Tesselator.TesselateShape(potBlock, Shape.TryGet(capi, basePath + "opened-empty-withtrivet.json"), out potMesh);
                 potRef = capi.Render.UploadMultiTextureMesh(potMesh);
 
                 MeshData lidMesh;

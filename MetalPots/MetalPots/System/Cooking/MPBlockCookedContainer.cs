@@ -96,7 +96,7 @@ namespace MetalPots.Blocks
 
 
         MPMealMeshCache meshCache;
-        float yoff = 7.5f;
+        float yoff = 6.0f;
 
         public override void OnBeforeRender(ICoreClientAPI capi, ItemStack itemstack, EnumItemRenderTarget target, ref ItemRenderInfo renderinfo)
         {

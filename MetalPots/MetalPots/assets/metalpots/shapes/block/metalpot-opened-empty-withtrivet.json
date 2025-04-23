@@ -12,9 +12,9 @@
 	"elements": [
 		{
 			"name": "Floor",
-			"from": [ 4.0, 0.0, 4.0 ],
-			"to": [ 12.0, 1.0, 12.0 ],
-			"rotationOrigin": [ 4.0, 0.0, 4.0 ],
+			"from": [ 4.0, 3.0, 4.0 ],
+			"to": [ 12.0, 4.0, 12.0 ],
+			"rotationOrigin": [ 4.0, 3.0, 4.0 ],
 			"faces": {
 				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 8.0, 1.0 ] },
 				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 8.0, 1.0 ] },
@@ -167,6 +167,111 @@
 							}
 						}
 					]
+				}
+			]
+		},
+		{
+			"name": "Trivet N",
+			"from": [ 3.5, 2.5, 3.5 ],
+			"to": [ 12.5, 3.0, 4.0 ],
+			"rotationOrigin": [ 3.5, 2.5, 3.5 ],
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 9.0, 0.5 ] },
+				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 9.0, 0.5 ] },
+				"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 9.0, 0.5 ] },
+				"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 9.0, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "Trivet W",
+					"from": [ 0.0, 0.0, 0.5 ],
+					"to": [ 0.5, 0.5, 8.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 8.0, 0.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 8.0, 0.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 8.0 ] }
+					}
+				},
+				{
+					"name": "Trivet E",
+					"from": [ 8.5, 0.0, 0.5 ],
+					"to": [ 9.0, 0.5, 8.5 ],
+					"rotationOrigin": [ 8.5, 0.0, 0.5 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 8.0, 0.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 8.0, 0.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 8.0 ] }
+					}
+				},
+				{
+					"name": "Trivet S",
+					"from": [ 0.0, 0.0, 8.5 ],
+					"to": [ 9.0, 0.5, 9.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 8.5 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 9.0, 0.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 9.0, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 9.0, 0.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 9.0, 0.5 ] }
+					}
+				},
+				{
+					"name": "Trivet Leg",
+					"from": [ -1.5, -2.5, 9.5 ],
+					"to": [ -0.5, 1.0, 10.5 ],
+					"rotationOrigin": [ -1.5, -2.5, 9.5 ],
+					"rotationX": -22.5,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "Trivet Leg2",
+					"from": [ 9.5, -2.5, 9.5 ],
+					"to": [ 10.5, 1.0, 10.5 ],
+					"rotationOrigin": [ 9.5, -2.5, 9.5 ],
+					"rotationX": -22.5,
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "Trivet Leg3",
+					"from": [ 4.0, -2.5, -1.5 ],
+					"to": [ 5.0, 1.0, -0.5 ],
+					"rotationOrigin": [ 4.0, -2.5, -1.5 ],
+					"rotationX": 22.5,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 3.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					}
 				}
 			]
 		}

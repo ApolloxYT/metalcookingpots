@@ -6,7 +6,7 @@
         "Apollox"
     ],
     "description": "Adds new and bigger Cooking Pots",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "game": ""
     }

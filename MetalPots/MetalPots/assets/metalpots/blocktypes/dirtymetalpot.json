@@ -30,10 +30,10 @@
     "attributesByType": {
         "*": {
             "cookingContainerSlots": 4,
-            "maxContainerSlotStackSize": 30,
-            "cookingSlotCapacityLitres": 30,
-            "servingCapacity": 30,
-            "maxServingSize": 30,
+            "maxContainerSlotStackSize": 24,
+            "cookingSlotCapacityLitres": 24,
+            "servingCapacity": 24,
+            "maxServingSize": 24,
             "storageType": 1,
             "maxTemperature": 250,
             "inFirePitProps": {
@@ -111,5 +111,23 @@
         "x2": 0.72,
         "y2": 0.35,
         "z2": 0.72
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.7,
+            "y": 0.06,
+            "z": -0.47
+        },
+        "rotation": {
+            "x": -52,
+            "y": 20,
+            "z": -110
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 0.6
     }
 }
