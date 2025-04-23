@@ -47,6 +47,14 @@
       <HintPath>$(VINTAGE_STORY)/Lib/Microsoft.Data.Sqlite.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="xlib">
+      <HintPath>..\xlib_v0.8.16\xlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="xskills">
+      <HintPath>..\xskills_v0.8.19\xskills.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
 
 <ItemGroup>

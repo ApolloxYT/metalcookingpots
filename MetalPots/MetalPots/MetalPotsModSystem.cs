@@ -16,18 +16,7 @@ namespace MetalPots
         {
             api.RegisterBlockClass(Mod.Info.ModID + ".MPBlockCookingContainer", typeof(MPBlockCookingContainers));
             api.RegisterBlockClass(Mod.Info.ModID + ".MPBlockCookedContainer", typeof(MPBlockCookedContainer));
-            Mod.Logger.Notification("Hello from template mod: " + api.Side);
+            api.RegisterBlockClass(Mod.Info.ModID + ".MPXSkillBlockCookingContainer", typeof(MPXSkillBlockCookingContainer));
         }
-
-        public override void StartServerSide(ICoreServerAPI api)
-        {
-            Mod.Logger.Notification("Hello from template mod server side: " + Lang.Get("metalpots:hello"));
-        }
-
-        public override void StartClientSide(ICoreClientAPI api)
-        {
-            Mod.Logger.Notification("Hello from template mod client side: " + Lang.Get("metalpots:hello"));
-        }
-
     }
 }
