@@ -3,6 +3,6 @@
     "block-metalpot-*-empty": "Metalllkochtopf",
     "block-metalpot-*-cooked": "Metall Topf mit gekochten Speisen",
 
-    "item-metalpottop-*": "Metall Topf Teil (Obere Hälfte)",
-    "item-metalpotbottom-*": "Metall Topf Teil (Untere Hälfte)"
+    "item-metalpottop-*": "Metall Topf Deckel",
+    "item-metalpotbottom-*": "Metall Topf (Fehlt Deckel)"
 }

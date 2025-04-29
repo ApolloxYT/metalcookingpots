@@ -1,0 +1,170 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-copper-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-brass-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-tinbronze-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-bismuthbronze-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-blackbronze-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-silver-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-gold-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-iron-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-chromium-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-electrum-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-titanium-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-molybdochalkos-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-meteoriciron-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/metalpots:metalpot-steel-cooked",
+        "value": 4.5,
+        "file": "levelup:config/levelstats/cookingpots.json",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "levelup"
+            }
+        ]
+    }
+]

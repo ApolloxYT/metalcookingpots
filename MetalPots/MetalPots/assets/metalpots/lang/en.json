@@ -3,6 +3,6 @@
     "block-metalpot-*-empty": "Metal Pot",
     "block-metalpot-*-cooked": "Metal Pot of Cooked Food",
 
-    "item-metalpottop-*": "Metal Pot Part (Top)",
-    "item-metalpotbottom-*": "Metal Pot Part (Bottom)"
+    "item-metalpottop-*": "Metal Pot Lid",
+    "item-metalpotbottom-*": "Metal Pot (Missing Lid)"
 }
