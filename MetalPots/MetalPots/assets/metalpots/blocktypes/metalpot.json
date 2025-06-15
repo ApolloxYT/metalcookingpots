@@ -24,6 +24,7 @@
         "metalpot-*-empty": "metalpots.MPBlockCookingContainer",
         "metalpot-*-cooked": "metalpots.MPBlockCookedContainer"
     },
+
     "heldTpIdleAnimation": "holdbothhandslarge",
     "heldTpUseAnimation": "twohandplaceblock",
 
@@ -67,7 +68,7 @@
     "variantgroups": [
         {
             "code": "metal",
-            "states": [ "copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "chromium", "electrum", "titanium", "molybdochalkos", "meteoriciron", "steel" ]
+            "states": [ "copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "chromium", "electrum", "titanium", "molybdochalkos", "meteoriciron", "steel", "cupronickel", "nickel", "platinum", "stainlesssteel", "uranium", "zinc" ]
         },
         {
             "code": "type",
@@ -136,6 +137,9 @@
             "glue-cold": { "base": "game:block/liquid/glue-cold" },
             "vegetable-reeds": { "base": "game:block/food/meal/group18-reeds" }
         }
+    },
+    "lightHsvByType": {
+        "metalpot-uranium-*": [ 33, 7, 2 ]
     },
     "sounds": {
         "walk": "game:walk/stone"

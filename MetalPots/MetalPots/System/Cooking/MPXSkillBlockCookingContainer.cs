@@ -7,6 +7,7 @@ using MetalPots.BlockEntityRenderer;
 using MetalPots.Blocks;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
+using Vintagestory.API.Config;
 using Vintagestory.GameContent;
 using XLib.XLeveling;
 using XSkills;
@@ -101,6 +102,20 @@ namespace MetalPots.System.Cooking
                 cooking.ApplyAbilities(outputSlot, player, 0.0f);
             else if (cookingSlotsProvider?.Slots?[0].Itemstack != null)
                 cooking.ApplyAbilities(cookingSlotsProvider.Slots[0], player, 0.0f);
+        }
+
+        public override string GetHeldItemName(ItemStack itemStack)
+        {
+
+            string metal = itemStack.Collectible.Variant["metal"];
+            if (itemStack.Collectible.Attributes.IsTrue("isDirtyPot"))
+            {
+                return Lang.Get("metalpots:dirtymetalpottemplate", Lang.Get("metalpots:metal-" + metal));
+            }
+            else
+            {
+                return Lang.Get("metalpots:metalpottemplate", Lang.Get("metalpots:metal-" + metal));
+            }
         }
     }
 }

@@ -3,10 +3,10 @@
     "modid": "metalpots",
     "name": "Metal Cooking Pots",
     "authors": [
-        "Apollox"
+        "Yoldovahkriid"
     ],
     "description": "Adds new and bigger Cooking Pots",
-    "version": "1.2.0",
+    "version": "1.2.3",
     "dependencies": {
         "game": ""
     }

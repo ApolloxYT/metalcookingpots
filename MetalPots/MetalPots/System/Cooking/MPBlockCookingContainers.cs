@@ -90,5 +90,19 @@ namespace MetalPots.System.Cooking
                 inputSlot.Itemstack = null;
             }
         }
+
+        public override string GetHeldItemName(ItemStack itemStack)
+        {
+            
+            string metal = itemStack.Collectible.Variant["metal"];
+            if (itemStack.Collectible.Attributes.IsTrue("isDirtyPot"))
+            {
+                return Lang.Get("metalpots:dirtymetalpottemplate", Lang.Get("metalpots:metal-" + metal));
+            }
+            else
+            {
+                return Lang.Get("metalpots:metalpottemplate", Lang.Get("metalpots:metal-" + metal));
+            }
+        }
     }
 }

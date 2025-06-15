@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Text;
 using MetalPots.BlockEntityRenderer;
 using MetalPots.System.Cooking;
@@ -12,10 +13,10 @@ using Vintagestory.GameContent;
 
 namespace MetalPots.Blocks
 {
-    internal class MPBlockCookedContainer : BlockCookedContainerBase, IInFirepitRendererSupplier, IContainedMeshSource, IContainedInteractable
+    internal class MPBlockCookedContainer : BlockCookedContainer, IInFirepitRendererSupplier, IContainedMeshSource, IContainedInteractable
     {
-        public static SimpleParticleProperties smokeHeld;
-        public static SimpleParticleProperties foodSparks;
+        new public static SimpleParticleProperties smokeHeld;
+        new public static SimpleParticleProperties foodSparks;
 
         WorldInteraction[] interactions;
 
@@ -110,13 +111,13 @@ namespace MetalPots.Blocks
         }
 
 
-        public virtual string GetMeshCacheKey(ItemStack itemstack)
+        new public virtual string GetMeshCacheKey(ItemStack itemstack)
         {
             return "" + meshCache.GetMealHashCode(itemstack);
         }
 
 
-        public MeshData GenMesh(ItemStack itemstack, ITextureAtlasAPI targetAtlas, BlockPos forBlockPos = null)
+        new public MeshData GenMesh(ItemStack itemstack, ITextureAtlasAPI targetAtlas, BlockPos forBlockPos = null)
         {
             return meshCache.GenMealInContainerMesh(this, GetCookingRecipe(api.World, itemstack), GetNonEmptyContents(api.World, itemstack), new Vec3f(0, yoff / 16f, 0));
         }
@@ -159,8 +160,8 @@ namespace MetalPots.Blocks
             {
                 return Lang.Get("Pot of rotten food");
             }
-
-            return base.GetHeldItemName(itemStack);
+            string metal = itemStack.Collectible.Variant["metal"];
+            return Lang.Get("metalpots:cookedmetalpottemplate", Lang.Get("metalpots:metal-" + metal));
         }
 
         public override void OnHeldIdle(ItemSlot slot, EntityAgent byEntity)
@@ -438,12 +439,12 @@ namespace MetalPots.Blocks
         }
 
 
-        public IInFirepitRenderer GetRendererWhenInFirepit(ItemStack stack, BlockEntityFirepit firepit, bool forOutputSlot)
+        new public IInFirepitRenderer GetRendererWhenInFirepit(ItemStack stack, BlockEntityFirepit firepit, bool forOutputSlot)
         {
             return new MetalPotInFirepitRenderer(api as ICoreClientAPI, stack, firepit.Pos, forOutputSlot);
         }
 
-        public EnumFirepitModel GetDesiredFirepitModel(ItemStack stack, BlockEntityFirepit firepit, bool forOutputSlot)
+        new public EnumFirepitModel GetDesiredFirepitModel(ItemStack stack, BlockEntityFirepit firepit, bool forOutputSlot)
         {
             return EnumFirepitModel.Wide;
         }
@@ -478,5 +479,6 @@ namespace MetalPots.Blocks
 
             return false;
         }
+
     }
 }

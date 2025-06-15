@@ -1,8 +1,31 @@
 {
-    "block-dirtymetalpot-*": "Metalltopf mit Rückstanden",
-    "block-metalpot-*-empty": "Metalllkochtopf",
-    "block-metalpot-*-cooked": "Metall Topf mit gekochten Speisen",
+    "item-metalpottop-*": "Metalltopfdeckel",
+    "item-metalpotbottom-*": "Metalltopf (Fehlender Deckel)",
 
-    "item-metalpottop-*": "Metall Topf Deckel",
-    "item-metalpotbottom-*": "Metall Topf (Fehlt Deckel)"
+    "metalpottemplate": "{0} Metalltopf",
+    "dirtymetalpottemplate": "{0} Metalltopf mit Rückständen",
+    "cookedmetalpottemplate": "{0} Metalltopf mit gekochten Speisen",
+
+    "metal-copper": "Kupfer",
+    "metal-brass": "Messing",
+    "metal-tinbronze": "Zinnbronze",
+    "metal-bismuthbronze": "Bismutbronze",
+    "metal-blackbronze": "Schwarzbronze",
+    "metal-silver": "Silber",
+    "metal-gold": "Gold",
+    "metal-iron": "Eisen",
+    "metal-chromium": "Chrom",
+    "metal-electrum": "Eleckrum",
+    "metal-titanium": "Titan",
+    "metal-molybdochalkos": "Kupferblei",
+    "metal-meteoriciron": "Meteoreisen",
+    "metal-steel": "Stahl",
+    "metal-cupronickel": "Kupfernickel",
+    "metal-nickel": "Nickel",
+    "metal-platinum": "Platin",
+    "metal-stainlesssteel": "Edelstahl",
+    "metal-uranium": "Uran",
+    "metal-zinc": "Zink",
+
+    "blockdesc-dirtymetalpot-*-empty": "In diesem ekelhaften Zustand kann der Topf nicht mehr für Mahlzeiten benutzt werden"
 }

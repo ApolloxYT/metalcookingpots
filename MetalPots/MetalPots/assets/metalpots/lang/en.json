@@ -1,8 +1,31 @@
 {
-    "block-dirtymetalpot-*": "Residue-covered Metal Pot",
-    "block-metalpot-*-empty": "Metal Pot",
-    "block-metalpot-*-cooked": "Metal Pot of Cooked Food",
-
     "item-metalpottop-*": "Metal Pot Lid",
-    "item-metalpotbottom-*": "Metal Pot (Missing Lid)"
+    "item-metalpotbottom-*": "Metal Pot (Missing Lid)",
+
+    "metalpottemplate": "{0} metal pot",
+    "dirtymetalpottemplate": "Residue-covered {0} metal pot",
+    "cookedmetalpottemplate": "{0} metal pot of cooked food",
+
+    "metal-copper": "Copper",
+    "metal-brass": "Brass",
+    "metal-tinbronze": "Tin bronze",
+    "metal-bismuthbronze": "Bismuth bronze",
+    "metal-blackbronze": "Black bronze",
+    "metal-silver": "Silver",
+    "metal-gold": "Gold",
+    "metal-iron": "Iron",
+    "metal-chromium": "Chromium",
+    "metal-electrum": "Electrum",
+    "metal-titanium": "Titanium",
+    "metal-molybdochalkos": "Molybdochalkos",
+    "metal-meteoriciron": "Meteoric iron",
+    "metal-steel": "Steel",
+    "metal-cupronickel": "Cupronickel",
+    "metal-nickel": "Nickel",
+    "metal-platinum": "Platinum",
+    "metal-stainlesssteel": "Stainless steel",
+    "metal-uranium": "Uranium",
+    "metal-zinc": "Zinc",
+
+    "blockdesc-dirtymetalpot-*-empty": "Covered in grime, can no longer be used for meal-making"
 }

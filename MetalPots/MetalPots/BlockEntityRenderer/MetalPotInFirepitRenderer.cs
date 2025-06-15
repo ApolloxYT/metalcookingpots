@@ -46,13 +46,13 @@ namespace MetalPots.BlockEntityRenderer
             }
             else
             {
-                string basePath = "metalpots:shapes/block/metalpot-";
+                string basePath = potBlock.Code.PathStartsWith("dirtymetalpot") ? "metalpots:shapes/block/dirty-metalpot-" : "metalpots:shapes/block/metalpot-";
                 MeshData potMesh;
                 capi.Tesselator.TesselateShape(potBlock, Shape.TryGet(capi, basePath + "opened-empty-withtrivet.json"), out potMesh);
                 potRef = capi.Render.UploadMultiTextureMesh(potMesh);
 
                 MeshData lidMesh;
-                capi.Tesselator.TesselateShape(potBlock, Shape.TryGet(capi, basePath + "part-lid.json"), out lidMesh);
+                capi.Tesselator.TesselateShape(potBlock, Shape.TryGet(capi, "metalpots:shapes/block/metalpot-part-lid.json"), out lidMesh);
                 lidRef = capi.Render.UploadMultiTextureMesh(lidMesh);
             }
         }
